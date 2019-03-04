@@ -7,9 +7,10 @@ import Rank from "./components/Rank/Rank.js";
 import Particles from 'react-particles-js';
 import Clarifai from "clarifai";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition.js";
+import keys from "./config/keys";
 
 const app = new Clarifai.App({
-  apiKey: '0d89db95ec034ab0a466f35ab75d71cc'
+  apiKey: keys.apiKey
  });
 
 const particlesOptions={
