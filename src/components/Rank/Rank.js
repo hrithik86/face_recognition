@@ -4,10 +4,10 @@ const Rank= ()=>{
     return(
         <div>
            <div className="white f3">
-                {"hrithik,your current rank is..."}
+                {"Hello!"}
            </div>
-           <div className="white f1">
-                {"#5"}
+           <div className="white f2">
+                {"Welcome to Face Recognition App"}
            </div>
         </div>
         
